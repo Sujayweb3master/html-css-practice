@@ -53,6 +53,12 @@
     /* ... */
     align-items: center;    
   }
+
+  .subscribe,
+  .social {
+    align-self: flex-end;
+    margin-bottom: 20px;
+  }
   
   .photo-grid-container {
     display: flex;
@@ -70,6 +76,14 @@
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    flex-direction: row-reverse;
+    flex-direction: row;
     align-items: center;
+  }
+
+  .first-item {
+    order: -1;
+  }
+
+  .last-item {
+    order: 1;
   }
